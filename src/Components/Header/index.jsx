@@ -44,7 +44,7 @@ const Header = () => {
           <li className={route.pathname === "/" && "active"}>Who is chirag?</li>
         </Link>
         <Link to="/projects">
-          <li className={route.pathname.includes("portfolio") && "active"}>
+          <li className={route.pathname.includes("projects") && "active"}>
             Recent Work
           </li>
         </Link>
