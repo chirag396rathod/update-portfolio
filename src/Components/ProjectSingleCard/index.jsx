@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const ProjectSingleCardStyled = styled.div`
   width: 100%;
@@ -12,6 +14,9 @@ const ProjectSingleCardStyled = styled.div`
     box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
     cursor: pointer;
     padding: 20px;
+    span {
+      height: 100%;
+    }
     img {
       overflow: hidden;
       border-radius: 20px;
@@ -44,7 +49,7 @@ const ProjectSingleCard = ({ className, data }) => {
   return (
     <ProjectSingleCardStyled className={className || ""}>
       <div className="project-image">
-        <img src={data && data.images[0]} alt="image" />
+        <LazyLoadImage src={data && data.images[0]} effect="blur" />
       </div>
       <div className="title">{data && data.title}</div>
       <div className="desc">{data && data.desc.substring(0, 100) + "..."}</div>

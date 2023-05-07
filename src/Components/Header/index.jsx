@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div`
-  position: absolute;
+  position: fixed;
   height: 80px;
   width: 100%;
   top: 0;
@@ -13,6 +13,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 999;
   ul {
     display: flex;
     justify-content: center;

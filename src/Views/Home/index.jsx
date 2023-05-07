@@ -3,13 +3,15 @@ import ProfileIcon from "../../assets/Images/Home/profile.jpg";
 import GithubIcon from "../../assets/Images/Home/githubIcon.png";
 import LinkedinIcon from "../../assets/Images/Home/linkedinIcon.png";
 import EmailIcon from "../../assets/Images/Home/emailIcon.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Home = () => {
   return (
     <HomepageStyled>
       <LeftSideStyled>
         <div className="image-bg">
-          <img src={ProfileIcon} alt="ProfileIcon" />
+          <LazyLoadImage src={ProfileIcon} effect="blur" />
         </div>
         <div className="links">
           <a
