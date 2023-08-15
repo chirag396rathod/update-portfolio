@@ -49,11 +49,11 @@ const Header = () => {
             Recent Work
           </li>
         </Link>
-        <Link to="/contact">
+        {/* <Link to="/contact">
           <li className={route.pathname.includes("contact") && "active"}>
             Contact me!
           </li>
-        </Link>
+        </Link> */}
       </ul>
     </Container>
   );
