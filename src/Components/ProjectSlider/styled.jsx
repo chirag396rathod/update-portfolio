@@ -13,14 +13,15 @@ export const ProjectSliderContainer = styled.div`
   top: 0%;
   left: 0;
   width: 100%;
-  height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow-y: auto;
   z-index: 1050;
   padding-top: 20px;
   background-color: #32323a !important;
   transition: 0.1s all;
   animation-duration: 0.1s;
   animation-name: ${animation};
-
   .close-icon {
     display: flex;
     justify-content: flex-end;
@@ -28,7 +29,6 @@ export const ProjectSliderContainer = styled.div`
     max-width: 85rem;
     margin: 0 auto;
     padding: 0 20px;
-
     img {
       height: 45px;
       width: 45px;
@@ -89,7 +89,7 @@ export const CarouselImageCover = styled.div`
   align-items: center;
   .image-cover {
     max-width: 900px;
-    max-height: 700px;
+    max-height: 100%;
     object-fit: contain;
     margin: 40px auto 0 auto;
     padding: 0 20px;

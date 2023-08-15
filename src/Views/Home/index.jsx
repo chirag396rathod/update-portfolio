@@ -1,8 +1,8 @@
 import { HomepageStyled, LeftSideStyled, RightSideStyled } from "../styled";
 import ProfileIcon from "../../assets/Images/Home/profile.jpg";
-import GithubIcon from "../../assets/Images/Home/githubIcon.png";
-import LinkedinIcon from "../../assets/Images/Home/linkedinIcon.png";
-import EmailIcon from "../../assets/Images/Home/emailIcon.png";
+import GithubIcon from "../../assets/Images/github-svg-icon.svg";
+import LinkedinIcon from "../../assets/Images/linkedin-svg-icon.svg";
+import EmailIcon from "../../assets/Images/email-svg-icon.svg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
@@ -39,9 +39,8 @@ const Home = () => {
       </LeftSideStyled>
       <RightSideStyled>
         <header>
-          I&apos;m <span>Chirag Rathod.</span> <br /> And i&apos;m top-notch web
-          and app developer proficient in React JS, React Native, and web
-          design.
+          I&apos;m <span>Chirag Rathod.</span> <br /> And i&apos;m Architecting
+          Excellence with MERN: Unleashing Innovative Web and Mobile Experiences
         </header>
         <div className="desc">
           <p>

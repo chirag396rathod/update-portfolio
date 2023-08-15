@@ -27,7 +27,7 @@ const Projects = () => {
   return (
     <CommonLayout>
       <PortfolioStyled>
-        <Row className="g-5">
+        <Row className="g-4">
           {ProjectData.map((item, key) => (
             <Col md={6} lg={4} key={key} onClick={() => handleIsOpen(item)}>
               <ProjectSingleCard data={item} />

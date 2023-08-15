@@ -36,43 +36,39 @@ export const LeftSideStyled = styled.div`
     max-width: 410px;
     max-height: 610px;
 
-    padding: 25px;
-    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     @media (max-width: 885px) {
       margin-bottom: 50px;
       margin-top: 100px;
       margin-left: 20px;
       margin-right: 20px;
     }
-    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
   }
   img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+    object-fit: cover;
   }
   .links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-
-    padding: 10px 30px;
     margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 70px;
-    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
-
+    margin-left: 20px;
     .icon-cover {
-      width: 70px;
-      height: 70px;
-      padding: 10px;
       border-radius: 50%;
       cursor: pointer;
+      margin-right: 20px;
       img {
-        width: 100%;
-        height: 100%;
+        width: 30px;
+        height: 30px;
       }
-      box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
     }
   }
 `;

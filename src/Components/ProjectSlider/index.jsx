@@ -18,7 +18,7 @@ const ProjectSlider = ({ data, handleClose }) => {
       <img src={RightArrow} className="arrow-icon" onClick={clickHandler}></img>
     );
   };
-  console.log(data);
+
   return (
     <ProjectSliderContainer>
       <div className="close-icon">
@@ -55,10 +55,6 @@ const ProjectSlider = ({ data, handleClose }) => {
             ))}
           </Carousel>
         </CarouselImageCover>
-        <div className="details">
-          <div className="title">{data && data.title}</div>
-          <div className="title">{data && data.desc}</div>
-        </div>
       </main>
     </ProjectSliderContainer>
   );
