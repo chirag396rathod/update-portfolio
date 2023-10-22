@@ -4,7 +4,7 @@ export const HomepageStyled = styled.main`
   max-width: 72.5rem !important;
   height: calc(100vh - 130px);
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -23,9 +23,8 @@ export const HomepageStyled = styled.main`
 
 export const LeftSideStyled = styled.div`
   @media (max-width: 885px) {
-    margin-bottom: 50px;
-    margin-top: 500px;
-
+    margin-bottom: 20px;
+    margin-top: 330px;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -33,7 +32,7 @@ export const LeftSideStyled = styled.div`
     width: 0px;
   }
   .image-bg {
-    max-width: 410px;
+    max-width: 325px;
     max-height: 610px;
 
     background-color: rgba(255, 255, 255, 0.1);
@@ -42,12 +41,6 @@ export const LeftSideStyled = styled.div`
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    @media (max-width: 885px) {
-      margin-bottom: 50px;
-      margin-top: 100px;
-      margin-left: 20px;
-      margin-right: 20px;
-    }
   }
   img {
     width: 100%;
@@ -62,12 +55,15 @@ export const LeftSideStyled = styled.div`
     margin-top: 20px;
     margin-left: 20px;
     .icon-cover {
-      border-radius: 50%;
       cursor: pointer;
       margin-right: 20px;
       img {
         width: 30px;
         height: 30px;
+        object-fit: contain;
+        &:hover {
+          scale: 1.2;
+        }
       }
     }
   }
@@ -90,6 +86,9 @@ export const RightSideStyled = styled.div`
     line-height: 1.5;
     margin: 20px 0;
     text-align: justify;
+    @media screen and (max-width: 440px) {
+      font-size: 14px;
+    }
     p {
       margin-top: 10px;
     }
@@ -102,6 +101,9 @@ export const RightSideStyled = styled.div`
     box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
 
     font: 600 35px "Nunito";
+    @media screen and (max-width: 440px) {
+      font-size: 18px;
+    }
     span {
       background-color: #e98b2c;
       font-weight: bold;
@@ -113,5 +115,5 @@ export const RightSideStyled = styled.div`
 `;
 
 export const CommonLayout = styled.div`
-  margin-top: 130px;
+  margin-top: 90px;
 `;

@@ -10,7 +10,7 @@ const PortfolioStyled = styled.div`
   max-width: 82.5rem !important;
   margin: 0 auto;
   margin-bottom: 24px;
-  padding: 0 40px;
+  padding: 0 20px;
 `;
 
 const Projects = () => {

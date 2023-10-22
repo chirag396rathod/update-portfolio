@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   position: fixed;
-  height: 80px;
+  height: 60px;
   width: 100%;
   top: 0;
   left: 0;
@@ -18,6 +18,8 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    gap: 0 20px;
     a {
       text-decoration: none !important;
     }
@@ -26,8 +28,9 @@ const Container = styled.div`
       font: 600 22px "Nunito";
       cursor: pointer;
       list-style: none;
-      margin: 0 30px;
-
+      @media (max-width: 440px) {
+        font-size: 16px;
+      }
       &.active {
         color: #e98b2c;
       }

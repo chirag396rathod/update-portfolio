@@ -45,6 +45,10 @@ export const ProjectSliderContainer = styled.div`
   main {
     margin: 20px auto 24px;
     max-width: 82.5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 17vh);
     img {
       border-radius: 10px;
     }

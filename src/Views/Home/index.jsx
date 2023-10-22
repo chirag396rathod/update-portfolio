@@ -16,17 +16,17 @@ const Home = () => {
         <div className="links">
           <a
             className="icon-cover"
-            href="https://www.linkedin.com/in/chiragrathod01/"
-            target="_blank"
-          >
-            <img src={LinkedinIcon} alt="image" />
-          </a>
-          <a
-            className="icon-cover"
             href="https://github.com/chirag396rathod"
             target="_blank"
           >
             <img src={GithubIcon} alt="image" />
+          </a>
+          <a
+            className="icon-cover"
+            href="https://www.linkedin.com/in/chiragrathod01/"
+            target="_blank"
+          >
+            <img src={LinkedinIcon} alt="image" />
           </a>
           <a
             className="icon-cover"
@@ -39,76 +39,56 @@ const Home = () => {
       </LeftSideStyled>
       <RightSideStyled>
         <header>
-          I&apos;m <span>Chirag Rathod.</span> <br /> And i&apos;m Architecting
-          Excellence with MERN: Unleashing Innovative Web and Mobile Experiences
+          Hi there, I&apos;m <span>Chirag Rathod.</span> <br /> And i&apos;m
+          Architecting Excellence with MERN: Unleashing Innovative Web and
+          Mobile Experiences
         </header>
         <div className="desc">
           <p>
-            With my passion for web and mobile development, combined with my 1
-            year of experience in the IT industry, I believe that I can make a
-            valuable contribution to your team.{" "}
+            I am a web designer and developer with over 1.7 years of experience,
+            specializing in React JS development. I am dedicated to enhancing
+            design usability and finding solutions to various challenges. In my
+            current role, I work on product development and Single Sign-On (SSO)
+            login functionality.
           </p>
           <p>
-            {" "}
-            During my time in the industry, I have worked on various projects,
-            In addition to the React Zomato clone website, landing pages, and
-            the React Native Urban management system, I have also developed a
-            project management website similar to Trello. This project
-            management website allows users to create boards, lists, and cards
-            to manage their projects effectively. My expertise in React JS and
-            React Native allowed me to develop this application with ease.{" "}
-          </p>{" "}
+            My portfolio includes projects such as a React Zomato clone website,
+            React Native urban management system, and a project management
+            website inspired by Trello. The project management site allows users
+            to create boards, lists, and cards for efficient project management.
+            My expertise in React JS and React Native has made these projects a
+            breeze.
+          </p>
           <p>
-            {" "}
-            Additionally, I have designed and developed a health-related landing
-            screen and page that aimed to promote a healthy lifestyle among
-            users. The landing page was optimized for conversions and included
-            elements such as a signup form and a call-to-action button to
-            encourage users to take action.{" "}
-          </p>{" "}
+            I've also created a health-related landing page optimized for user
+            conversions. It features a signup form and a compelling
+            call-to-action button to promote a healthy lifestyle.
+          </p>
           <p>
-            {" "}
-            As a developer, I pride myself on being proficient in creating
-            high-quality code that is both scalable and maintainable. I am
-            well-versed in utilizing the latest tools and technologies to
-            deliver robust and feature-rich applications that meet the needs of
-            my clients. Additionally, I have strong problem-solving skills and a
-            keen eye for detail, which allows me to identify and resolve issues
-            quickly and effectively.{" "}
-          </p>{" "}
+            I take pride in writing high-quality, scalable, and maintainable
+            code. I stay up-to-date with the latest tools and technologies to
+            deliver robust applications that meet client needs. My strong
+            problem-solving skills and attention to detail help me quickly
+            identify and resolve issues.
+          </p>
           <p>
-            {" "}
-            Apart from my technical skills, I am a passionate and dedicated
-            individual who is committed to delivering exceptional results. I
-            have excellent communication skills and work well both independently
-            and as part of a team. I am always eager to learn new technologies
-            and techniques and enjoy collaborating with others to find
-            innovative solutions to complex problems.
-          </p>{" "}
+            Beyond my technical skills, I'm a passionate and dedicated
+            professional who excels in communication and teamwork. I'm eager to
+            learn new technologies and enjoy collaborating to find innovative
+            solutions.
+          </p>
           <p>
-            {" "}
-            I would also like to mention that I believe I am an excellent fit
-            for this project. With my extensive experience in React JS and React
-            Native, as well as my passion for web and mobile development, I am
-            confident that I can contribute to the success of your project. My
-            track record of delivering high-quality applications on time and
-            within budget demonstrates my ability to handle complex development
-            projects effectively.{" "}
-          </p>{" "}
+            I believe I'm a perfect fit for your project. With my extensive
+            experience in React JS and React Native, I can contribute to your
+            project's success. I have a track record of delivering high-quality
+            applications on time and within budget. My proficiency in both
+            design and development makes me a versatile candidate who can
+            contribute at every project stage.
+          </p>
           <p>
-            {" "}
-            Furthermore, my proficiency in both design and development makes me
-            a versatile candidate who can contribute to every stage of the
-            project. Whether it is creating wireframes, developing prototypes,
-            or writing code, I am comfortable and capable of delivering
-            top-quality results.{" "}
-          </p>{" "}
-          <p>
-            {" "}
-            Overall, I am confident that my skills, experience, and passion make
-            me a perfect fit for your project. I am eager to discuss the
-            opportunity further and demonstrate my abilities. Thank you for your
-            intrust.
+            In summary, my skills, experience, and passion make me a strong
+            candidate for your project. I'm eager to discuss the opportunity
+            further and showcase my abilities. Thank you for your interest.
           </p>
         </div>
       </RightSideStyled>
