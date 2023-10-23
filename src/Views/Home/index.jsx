@@ -52,6 +52,15 @@ const Home = () => {
             login functionality.
           </p>
           <p>
+            I worked on the AI Image Repository project, where I focused on
+            backend development using Node.js, Express.js, MongoDB, and
+            Socket.io. I also integrated a third-party API, Laxica AI, for
+            text-to-image generation on the backend. On the frontend, I used
+            React with Ant Design for a great user interface. To ensure fast
+            performance and a smooth user experience, I built the AI Image
+            Repository as a single-page application with React Vite.
+          </p>
+          <p>
             My portfolio includes projects such as a React Zomato clone website,
             React Native urban management system, and a project management
             website inspired by Trello. The project management site allows users

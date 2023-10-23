@@ -19,6 +19,7 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 0;
     gap: 0 20px;
     a {
       text-decoration: none !important;
@@ -52,11 +53,11 @@ const Header = () => {
             Recent Work
           </li>
         </Link>
-        {/* <Link to="/contact">
-          <li className={route.pathname.includes("contact") && "active"}>
-            Contact me!
+        <Link to="/experience">
+          <li className={route.pathname.includes("experience") && "active"}>
+            Experience
           </li>
-        </Link> */}
+        </Link>
       </ul>
     </Container>
   );
