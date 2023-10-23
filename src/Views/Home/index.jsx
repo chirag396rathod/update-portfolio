@@ -40,8 +40,8 @@ const Home = () => {
       <RightSideStyled>
         <header>
           Hi there, I&apos;m <span>Chirag Rathod.</span> <br /> And i&apos;m
-          Architecting Excellence with MERN: Unleashing Innovative Web and
-          Mobile Experiences
+          Architecting Excellence with MERN: Unleashing Innovative 👨‍💻 Web
+          developer!
         </header>
         <div className="desc">
           <p>

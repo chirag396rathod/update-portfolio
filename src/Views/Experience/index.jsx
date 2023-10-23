@@ -66,7 +66,7 @@ const Experience = () => {
         </Col>
         <Col>
           <div className="experience">
-            <div className="sub-title">Experience</div>
+            <div className="sub-title">Experiences</div>
             <div className="list">
               <div className="item">
                 <div className="image-cover">

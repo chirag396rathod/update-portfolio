@@ -57,7 +57,7 @@ const ProjectSingleCardStyled = styled.div`
     color: #9ca3af;
     font: 500 16px "Nunito";
   }
-  transition: all 0.1s;
+  transition: 0.3s;
   cursor: default;
   .footer {
     display: flex;
@@ -71,10 +71,13 @@ const ProjectSingleCardStyled = styled.div`
       height: 24px;
       cursor: pointer;
       margin-left: 20px;
-      transition: all 0.1s;
+      transition: 0.3s;
+
       cursor: pointer;
+
       &:hover {
         scale: 1.2;
+        transition: 0.3s;
       }
     }
   }

@@ -61,8 +61,10 @@ export const LeftSideStyled = styled.div`
         width: 30px;
         height: 30px;
         object-fit: contain;
+        transition: 0.3s;
         &:hover {
           scale: 1.2;
+          transition: 0.3s;
         }
       }
     }
